@@ -1,13 +1,13 @@
 export default function PriceListPage() {
   return (
-    <div className="min-h-screen w-full bg-black py-2 px-4 sm:px-6 lg:px-8">
+    <div className="min-h-auto w-full bg-black py-2 px-4 sm:px-6 lg:px-8">
       <div className="text-center mb-1">
-        <h1 className="text-3xl font-bold text-white uppercase">PRICE LIST</h1>
+        <h1 className="text-3xl text-white font-mono">PRICE LIST</h1>
       </div>
       
-      <div className="w-[95%] md:w-3/4 lg:w-2/3 mx-auto py-8 mb-8">
+      <div className="w-[95%] md:w-3/4 lg:w-56/100 mx-auto py-2 mb-8">
         <div className="flex items-center justify-center -mx-1">
-          <table className="text-xs w-full bg-black uppercase border-collapse mx-1">
+          <table className="text-xs w-full bg-black uppercase lg:text-sm border-collapse mx-1">
             <colgroup>
               <col className="w-[40%]" />
               <col className="w-[20%]" />
@@ -20,11 +20,11 @@ export default function PriceListPage() {
                 <th className="py-3 px-2 text-left font-bold text-sm text-white "></th>
                 <th className="py-3 px-2 text-left font-medium text-white">
                   <div>STYLIST</div>
-                  <div className="text-[0.65rem] font-normal">WEEKEND ONLY</div>
+                  <div className="text-[0.6rem] font-normal">WEEKEND ONLY</div>
                 </th>
                 <th className="py-3 px-2 text-left font-medium text-white">
                   <div>ADVANCED STYLIST</div>
-                  <div className="text-[0.65rem] font-normal">APPOINTMENT ONLY</div>
+                  <div className="text-[0.6rem] font-normal">APPOINTMENT ONLY</div>
                 </th>
                 <th className="py-3 px-2 text-left font-medium text-white">DIRECTOR</th>
               </tr>
